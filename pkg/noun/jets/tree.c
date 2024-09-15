@@ -275,9 +275,35 @@ static c3_c* _140_hex_coed__ed_puck_ha[] = {
   "1bc694675842345c50b0e20a2193bb5bcbb42f163fc832431a3d1822a81e4c98",
   0
 };
+static u3j_harm _140_hex_coed__ed_luck_a[] = {{".2", u3wee_luck}, {}};
+static c3_c* _140_hex_coed__ed_luck_ha[] = {
+  "333694675842345c50b0e20a2193bb5bcbb42f163fc832431a3d1822a81e4c98",
+  0
+};
+
 static u3j_harm _140_hex_coed__ed_sign_a[] = {{".2", u3wee_sign}, {}};
 static c3_c* _140_hex_coed__ed_sign_ha[] = {
   "34ad749bf8443611cbf1f7de90a066318bd12be36f2f7f6f55281f6f7ed79754",
+  0
+};
+static u3j_harm _140_hex_coed__ed_scad_a[] = {{".2", u3wee_scad}, {}};
+static c3_c* _140_hex_coed__ed_scad_ha[] = {
+  "111d749bf8443611cbf1f7de90a066318bd12be36f2f7f6f55281f6f7ed79754",
+  0
+};
+static u3j_harm _140_hex_coed__ed_scas_a[] = {{".2", u3wee_scas}, {}};
+static c3_c* _140_hex_coed__ed_scas_ha[] = {
+  "555d749bf8443611cbf1f7de90a066318bd12be36f2f7f6f55281f6f7ed79754",
+  0
+};
+static u3j_harm _140_hex_coed__ed_scap_a[] = {{".2", u3wee_scap}, {}};
+static c3_c* _140_hex_coed__ed_scap_ha[] = {
+  "555d749bf8443611cbf1f7de90a066318bd12be36f2f7f6f55281f6f7ed79754",
+  0
+};
+static u3j_harm _140_hex_coed__ed_sign_raw_a[] = {{".2", u3wee_sign_raw}, {}};
+static c3_c* _140_hex_coed__ed_sign_raw_ha[] = {
+  "222d749bf8443611cbf1f7de90a066318bd12be36f2f7f6f55281f6f7ed79754",
   0
 };
 static u3j_harm _140_hex_coed__ed_veri_a[] = {{".2", u3wee_veri}, {}};
@@ -324,7 +350,12 @@ static c3_c* _140_hex_coed__ed_shar_ha[] = {
 
 static u3j_core _140_hex_coed__ed_d[] =
   { { "sign", 7, _140_hex_coed__ed_sign_a, 0, _140_hex_coed__ed_sign_ha },
+    { "scad", 7, _140_hex_coed__ed_scad_a, 0, _140_hex_coed__ed_scad_ha },
+    { "scas", 7, _140_hex_coed__ed_scas_a, 0, _140_hex_coed__ed_scas_ha },
+    { "scap", 7, _140_hex_coed__ed_scap_a, 0, _140_hex_coed__ed_scap_ha },
+    { "sign-raw", 7, _140_hex_coed__ed_sign_raw_a, 0, _140_hex_coed__ed_sign_raw_ha },
     { "puck", 7, _140_hex_coed__ed_puck_a, 0, _140_hex_coed__ed_puck_ha },
+    { "luck", 7, _140_hex_coed__ed_luck_a, 0, _140_hex_coed__ed_luck_ha },
     { "veri", 7, _140_hex_coed__ed_veri_a, 0, _140_hex_coed__ed_veri_ha },
     { "shar", 7, _140_hex_coed__ed_shar_a, 0, _140_hex_coed__ed_shar_ha },
     { "point-add", 7, _140_hex_coed__ed_point_add_a, 0, 0 },

@@ -188,7 +188,12 @@
     u3_noun u3weo_raw(u3_noun);
 
     u3_noun u3wee_puck(u3_noun);
+    u3_noun u3wee_luck(u3_noun);
     u3_noun u3wee_sign(u3_noun);
+    u3_noun u3wee_sign_raw(u3_noun);
+    u3_noun u3wee_scad(u3_noun);
+    u3_noun u3wee_scas(u3_noun);
+    u3_noun u3wee_scap(u3_noun);
     u3_noun u3wee_veri(u3_noun);
     u3_noun u3wee_shar(u3_noun);
     u3_noun u3wee_point_add(u3_noun);
